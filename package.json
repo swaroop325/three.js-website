@@ -1,0 +1,38 @@
+{
+  "name": "coins-visualization",
+  "version": "1.0.0",
+  "description": "A coins visualization built in three.js for http://james.greenle.af",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js",
+    "prod": "node_modules/.bin/cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js",
+    "watch": "node_modules/.bin/cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=webpack.config.js",
+    "serve": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aMoniker/coins-visualization.git"
+  },
+  "keywords": [
+    "coins",
+    "three.js"
+  ],
+  "author": "James Greenleaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aMoniker/coins-visualization/issues"
+  },
+  "homepage": "https://github.com/aMoniker/coins-visualization#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "three": "^0.86.0"
+  },
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "cross-env": "^5.0.5",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
