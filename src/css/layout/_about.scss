@@ -1,0 +1,46 @@
+.about {
+  background: #FFF;
+  border: 1px solid #FFF;
+  color: #000;
+  height: 315px;
+  padding: 25px;
+  position: absolute;
+  width: 315px;
+  z-index: 2;
+}
+
+.about-title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.about-desc {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+@media (max-width: 800px) {
+  .about {
+    background: none;
+    color: #FFF;
+  }
+}
+
+@media (max-width: 400px) {
+  .about {
+    background: rgba(0, 0, 0, .75);
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .about-title {
+    letter-spacing: 2px;
+    margin-top: 0.67em;
+  }
+}
