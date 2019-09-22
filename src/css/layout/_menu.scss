@@ -10,18 +10,16 @@
 
 .menu-item {
   display: block;
-  position: absolute;
+  position: relative;
   z-index: 5;
 }
 
 .menu-link {
   border: 1px solid #FFF;
   color: #FFF;
-  display: block;
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 0.5em;
-  margin-right: -0.5em;
   padding: 30px 50px;
   text-transform: uppercase;
 }
